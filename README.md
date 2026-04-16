@@ -17,6 +17,8 @@ A few miniprojects to help myself learn each library related to a bigger project
 #### What to make
 A CLI tool that can save, load, and edit a `settings.toml` file. It must handle errors gracefully (e.g., using `anyhow` if the file is missing) and log background processes so I can see exactly what the application is doing under the hood.
 
+
+
 ### 2. Timer App
 
 #### Crates
@@ -24,6 +26,8 @@ A CLI tool that can save, load, and edit a `settings.toml` file. It must handle 
 
 #### What to make
 A simple standalone desktop timer application using the `eframe` immediate-mode GUI. It needs a start button, a stop button, and must maintain its state while the screen redraws continuously. 
+
+
 
 ### 3. Capture Card Scan
 
@@ -37,6 +41,8 @@ A CLI tool that lists all camera devices (capture card video output) and allows 
 - **The Crucial Step:** Manually decode the raw camera format (like YUYV or MJPEG) into standard RGB.
 - Save the resulting RGB frame in a `.jpg` format to the disk.
 
+
+
 ### 4. Audio Monitor Tool
 
 #### Crates
@@ -47,6 +53,8 @@ A CLI tool that lists all camera devices (capture card video output) and allows 
 A CLI tool that lists all input devices, allows you to select one, then lists all output devices, and allows you to select one.
 - **The Core Task:** Play continuous audio from the selected input to the selected output using a lock-free `ringbuf` to pass data between the high-speed audio threads.
 - **The Crucial Step:** Ensure the `StreamConfig` (sample rate and channels) perfectly matches between the input and output devices, otherwise the audio pitch will be severely distorted.
+
+
 
 ### 5. The Thread Stress Test (UI vs. Background Compute)
 
