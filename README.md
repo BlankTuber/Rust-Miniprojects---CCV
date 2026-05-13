@@ -39,6 +39,7 @@ A simple standalone desktop timer application using the `eframe` immediate-mode 
 #### Crates
 
 - [nokhwa](https://crates.io/crates/nokhwa)
+- [image](https://crates.io/crates/image)
 *(Note: Do not use default features. Explicitly enable the correct OS-specific feature flags: `input-msmf` for Windows, `input-avfoundation` for Mac, or `input-v4l` for Linux).*
 
 #### What to make
