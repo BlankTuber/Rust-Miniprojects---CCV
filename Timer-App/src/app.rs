@@ -2,7 +2,7 @@ use std::time::Duration;
 
 use eframe::egui;
 
-use crate::state::{AppMsg, AppState};
+use crate::state::AppState;
 use crate::ui;
 
 // -------------------------------------------------------------------------
